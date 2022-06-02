@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/owl.carousel.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.green.css">
+  </head>
+  <body>
+    
+    <!---- nav section-->
+    <header class="d-flex justify-content-center p-1 position-relative"><img class="logo" src="img/logo.png" alt="fitnesslogo"/>
+    <span class="position-absolute fw-bold">Contact Us:- 7854965896</span>
+    
+    </header>
+    <input type="checkbox" id="menu">
+    <label for="menu" id="menubtn"><img src="img/outline_menu_black_24dp.png" alt="menu" ></label>
+    <label for="menu" id="closebtn"><img src="img/outline_close_black_24dp.png" alt="close" ></label>
+    <nav class="bg-danger mnavbar">
+        <ul class="d-flex justify-content-center p-2 navbar">
+            <li class="p-2 ms-2"><a href="/index.html">Home</a></li>
+            <li class="p-2 ms-2"><a href="/page/product.html">Products</a></li>
+            <li class="p-2 ms-2"><a href="#coachname">About</a></li>
+            <li class="p-2 ms-2"><a href="#contact">ContactUs</a></li>
+            <li class="p-2 ms-2"><a href="/page/faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <!-----nav section end-->
+
+    <!--carsoul start-->
+    <div class="m-auto" style="width: 90%;">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="img/c1.jpg" class="img-fluid" alt="c1"></div>
+            <div class="item"><img src="img/c2.jpg" alt="c2"></div>
+            <div class="item"><img src="img/c3.jpg" alt="c3"></div>
+            <div class="item"><img src="img/c4.jpg" alt="c4"></div>
+            <div class="item"><img src="img/c5.jpg" alt="c5"></div>
+        </div>
+    </div>
+    <!----carsoul end-->
+
+    <!------product list-->
+    <div class="container">
+      <h2>Trending Products</h2>
+      <div class="d-flex justify-content-between pt-1 flex-wrap item_list">
+        <div class="card my-2" style="width: 18rem;">
+          <img src="img/item1.jpg" class="card-img-top" alt="excerise bike">
+          <div class="card-body">
+            <h5 class="card-title">Excerise bike</h5>
+            <p>Sport equipment</p>
+            <p class="card-text text-justify">A stationary bicycle is a device used as exercise equipment for indoor cycling. It includes a saddle, pedals, and some form of handlebars arranged as on a bicycle.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="text-bolder">Price &#x20b9; 999</span>
+              <a href="#" class="btn buybtn">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card my-2" style="width: 18rem;">
+          <img src="img/item2.jpg" class="card-img-top" alt="Rowing Machine">
+          <div class="card-body">
+            <h5 class="card-title">Rowing Machine</h5>
+            <p>Sport equipment</p>
+            <p class="card-text text-justify">An indoor rower, or rowing machine, is a machine used to simulate the action of watercraft rowing for the purpose of exercise or training for rowing.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="text-bolder">Price &#x20b9; 9999</span>
+              <a href="#" class="btn buybtn">Buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card my-2" style="width: 18rem;">
+          <img src="img/item3.jpg" class="card-img-top" alt="Kettlebell">
+          <div class="card-body">
+            <h5 class="card-title">Kettlebell</h5>
+            <p>Sport equipment</p>
+            <p class="card-text text-justify">The kettlebell is a cast iron or cast steel ball with a handle attached to the top. It is used to perform many types of exercises, including ballistic exercises.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="text-bolder">Price &#x20b9; 9500</span>
+              <a href="#" class="btn buybtn">Buy now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="/page/product.html" style="text-decoration:none;">more product...</a>
+    </div>
+<!----product list end-->
+
+<!----fitness guidelines-->
+<div class="d-flex justify-content-between container p-2 fit-guide" style="margin: 30px auto;">
+  <div class="d-flex justify-content-center align-items-center" style="width: 50%;">
+    <div class="producer_image ">
+      <img src="/img/coach.jpg" class="rounded-circle" alt="coach">
+    </div>
+  </div>
+  <div class="d-flex justify-content-center align-items-center" style="width: 50%;">
+  <div class="producer_content">
+    <h4 id="coachname">Physical Fitness</h4>
+    <p class="text-justify">Physical fitness is a state of health and well-being and, more specifically, the ability to perform aspects of sports, occupations and daily activities.</p>
+    <ul>
+      <li>brisk walking (at least 2.5 miles per hour)</li>
+      <li>water aerobics</li>
+      <li>dancing (ballroom or social)</li>
+      <li>gardening</li>
+      <li>tennis(doubles)</li>
+      <li>biking slower than 10 miles per hour</li>
+    </ul>
+  </div>
+  </div>
+
+</div>
+
+<!-----fitness guiddelines end section-->
+<!----contact us section-->
+<div class="container">
+  <h2 id="contact">Contact Us</h2>
+  <div class="d-flex justify-content-between container p-1 fit-guide" style="margin: 0px auto;">
+      <div class="d-flex justify-content-center align-items-center" style="width: 50%;">
+        <div class="form_image">
+          <img src="/img/business__plan__planning__checklist.jpg" class="rounded-circle" alt="coach">
+        </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center divform" style="width: 50%;">
+        <div class="producer_content " style="width:100%">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name :</label>
+              <input type="email" class="form-control" id="name" aria-describedby="emailHelp">
+              
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Password :</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="comment" class="my-2">Comments: </label>
+              
+              <textarea class="form-control" placeholder="Leave a comment here" id="comment" style="height: 100px"></textarea>
+              
+            </div>
+            <div class="mb-3 justify-content-center d-flex">
+            <button type="submit" class="btn sbtn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+  </div>
+  
+</div>
+
+<!------footer section-->
+    <footer class="d-flex justify-content-between p-2 mbg-primary align-items-center social_media">
+      <p class="m-2 text-bolder">copyright reserved &copy; 2022</p>
+      <div>
+        <a href="#"><img src="img/instagram.ico" class="social" alt="instagram" title="instagram"></a>
+        <a href="#"><img src="/img/facebook-logo-2019.ico" class="social" alt="facebook" title="facebook"></a>
+        <a href="#"><img src="img/twitter.ico" class="social" alt="twitter" title="twitter"></a>
+        <a href="#"><img src="img/youtube.ico" class="social" alt="youtube" title="youtube"></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+    <script src="/js/myjs.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+                    $('.owl-carousel').owlCarousel({
+                    loop:true,
+                    items:1,
+                    autoplay:true,
+                })
+        })
+    </script>
+  </body>
+</html>
